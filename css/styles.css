@@ -13,8 +13,14 @@ body{
 
 
 
+legend{
+	border-top: 1px solid black;
+	width: 100%;
+	/* margin:0; */
+}
+
 .newsletter{
-	border-top : 1px solid black;
+	/* border-top : 1px solid black; */
 }
 
 
@@ -68,7 +74,7 @@ p{
 .form_header{
 	font-size: 1.25rem;
 	font-weight: bold;
-	border-top: 1px solid black;
+	/* border-top: 1px solid black; */
 	padding: 15px 15px 15px 0;
 	text-indent:0;
 }
@@ -194,6 +200,7 @@ p{
 		/* border:1px solid green; */
 		/* font-size: 1.25rem; */
 		/* margin-bottom: 10px; */
+		margin-top: 12px;
 		float: left;
 		width: 45%;
 		margin-left: 7%;
