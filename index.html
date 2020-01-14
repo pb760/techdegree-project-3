@@ -1,0 +1,108 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<title>The Code Review</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="css/normalize.css">
+	<link rel="stylesheet" href="css/styles.css">
+	<link href="https://fonts.googleapis.com/css?family=Muli%7CRoboto:400,300,500,700,900" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Bree+Serif|Oswald|Roboto&display=swap" rel="stylesheet">	
+	<link href="https://fonts.googleapis.com/css?family=El+Messiri&display=swap" rel="stylesheet">
+</head>
+
+<body>
+	<form action = "index.html" method = "post" >
+		<article>
+			<h1>The Code Review</h1>
+			<span >
+			<h2>Signup for our newsletter</h2>
+			<p>Get the latest news on how your code is doing right in your inbox</p>
+			</span>
+		</article>
+	
+	
+		<fieldset >
+			
+			<label class = "form_header">Contact Information</label>
+				
+			<div class = "contact_info">
+				
+				<label for = "name">Full Name :</label>
+				<input type = "text" id = "name" name = "user_name" placeholder = "Full Name" required>
+				
+				<label for = "e-mail">Email Address :</label>
+				<input type = "email" id = "e-mail" name = "user_email" placeholder = "Email" required>
+				
+				<label for = "phone">Phone Number :</label>
+				<input type = "number" id = "phone" name = "user_phone" placeholder = "Phone" required>
+				
+				<label for = "street">Street Address :</label>
+				<input type = "text" id = "street" name = "user_street" placeholder = "Street" required>
+				
+				<label for = "city">City :</label>
+				<input type = "text" id = "city" name = "user_city" placeholder = "City" required>
+				
+				<label for = "state">State :</label>
+				<select id = "state" name = "user_state" >
+					<optgroup label = "State" >
+						<option value = "qld">Queensland(QLD)</option>
+						<option value = "nsw" selected>New South Wales(NSW)</option>
+						<option value = "vic">Victoria(VIC)</option>
+						<option value = "sa">South Australia(SA)</option>
+						<option value = "wa">Western Australia(WA)</option>
+						<option value = "tas">Tasmania(TAS)</option>
+					</optgroup>
+					
+					<optgroup label = "Territory">
+						<option value = "nt">Northern Territory(NT)</option>
+						<option value = "act">Australian Capital Territory(ACT)</option>
+					</optgroup>
+				</select>
+				
+				
+				
+				<label for = "zip">Zip Code :</label>
+				<input type = "number" id = "zip" name = "user_zipcode" placeholder = "Post Code" required>
+			
+			</div>
+		</fieldset>
+		
+		
+		<fieldset >
+			<div class = "newsletter">
+				<h2>Newsletter</h2>
+				<h3>Select the newsletters you would like to receive</h3>
+				
+				<input type = "checkbox" id = "html" value = "newsletter_html" name = "newsletter_html" ><label class = "light" for = "html">HTML News</label>
+				
+				<input type = "checkbox" id = "css" value = "newsletter_css" name = "newsletter_css" ><label class = "light" for = "css">CSS News</label>
+				
+				<input type = "checkbox" id = "javascript" value = "newsletter_javascript" name = "newsletter_javascript" ><label class = "light" for = "javascript">Javascript News</label>
+			</div>
+			
+			<div class = "newsletter_format">
+			
+				<h2> Newsletter format</h2>
+								
+				<input type = "radio" id = "radio_html" value = "radio_html" name = "radio_html" required><label class = "light" for = "radio_html" >HTML</label>
+				
+				<input type = "radio" id = "radio_text" value = "radio_text" name = "radio_html" required><label class = "light" for = "radio_text" >Plain Text</label>
+				
+				<div class = "other_topics">
+				<label for = "other_topics">Other topics you'd like to hear about</label>
+				<textarea id = "other_topics" name = "topics" placeholder = "Other topics&hellip;" required></textarea>
+				</div>
+			</div>
+			
+		</fieldset>
+		
+		
+		<button type = "submit"> Sign Up </button>
+	</form>
+	
+	<p> Copyright The Code Review</p>
+	
+</body>
+
+</html>

@@ -1,0 +1,313 @@
+*,*:before, *:after{
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+} 
+
+body{
+	/* font-family: 'Nunito',sans-serif; */
+	font-family: 'El Messiri', sans-serif;
+	
+	background-color:#e6ffff; 
+}
+
+
+
+.newsletter{
+	border-top : 1px solid black;
+}
+
+
+form article{
+	background-color: #004d99;
+	color: #fff;
+	
+}
+
+article h1{
+	padding: 20px;
+	text-align: center;
+	font-weight: bold;
+	font-size: 2rem;
+	margin:0;
+	/* border: 1px solid red; */
+}
+
+article h2{
+	padding: 10px 10px 0 10px;
+	/* border-bottom: 2px solid black; */
+	text-decoration:underline;
+	text-align: center;
+	font-size: 1.5rem;
+	/* background-color: #0059b3; */
+	color: #000;
+	margin:0;
+	margin-top: 54px;
+	/* margin-top: 50px; */
+	/* border: 1px solid green; */
+}
+
+article span{
+	display: block;
+	background-color: red;
+	/* height: 235px; */
+	/* border-bottom: 2px solid black; */
+}
+
+p{
+	/* background-color: #0059b3; */
+	/* text-align: justify; */
+	/* text-indent: 18px; */
+	text-align:center;
+	padding: 5px 20px 0 20px;
+	/* border: 1px solid green; */
+	margin:0;
+}
+
+
+.form_header{
+	font-size: 1.25rem;
+	font-weight: bold;
+	border-top: 1px solid black;
+	padding: 15px 15px 15px 0;
+	text-indent:0;
+}
+@media screen and (min-width: 320px){
+	
+	article,
+	form,
+	fieldset{
+		min-width: 300px;
+		/* border: 1px solid red; */
+		margin: 10px auto;
+		/* border-radius: 10px; */
+		background-color:#b3ffff;
+		
+	}
+	
+	
+	input[type = "text"],
+	input[type = "email"],
+	input[type = "number"],
+	textarea,
+	select{
+		background: rgba(255,255,255,0.4);
+		font-size: 16px;
+		height: auto;
+		margin: 0;
+		outline: 0;
+		padding: 10px;
+		width: 100%;
+		color: #00b3b3;
+		box-shadow: 0 1px 0 rgba(0,0,0,0.03) inset;
+		margin-bottom: 25px;
+	}
+	
+	input[type = "radio"],
+	input[type = "checkbox"]{
+		/* border: 1px solid red; */
+		/* margin: 0 10px 15px 0; */
+		display: inline-block;
+	}
+	
+	select{
+		padding:10px;
+		height: 50px;
+		border-radius: 2px;		
+	}
+	
+	button{
+		display: block;
+		padding: 20px 30px;
+		/* border: 1px solid blue; */
+		width: 90%;
+		margin: 20px auto;
+		/* margin-bottom: 0px; */
+		color: #fff;
+		font-size: 24px;
+		font-weight: bold;
+		background-color:#006600; 
+		border: none;
+		border-radius: 8px;
+		/* box-shadow:  inset 7px 7px 13px -1px rgba(0,0,0,0.75); */
+		/* box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75); */
+		box-shadow: inset 0px 0px 27px -11px rgba(0,0,0,0.86);
+		 /* box-shadow: 0 -1px 0 rgba(255,255,255,0.1) inset; */
+	}
+	
+	fieldset{
+		border: none;
+		margin-bottom: 0px; 
+	}
+	
+	
+	
+	label{
+		display: block;
+		/* border:1px solid green; */
+		font-size: 1.25rem;
+		margin-bottom: 10px;
+		
+	}
+	
+	label.light{
+		/* display: inline; */
+		width:80%;
+		display: inline-block;
+		margin-left:30px;
+	}
+	
+}
+
+@media screen and (min-width: 768px){
+	
+	
+	
+	
+	article,
+	form,
+	fieldset{
+		max-width: 768px;
+		border-radius: 10px;	
+	}
+	
+	article h1{
+	font-size: 3rem;
+	}
+
+	article h2{
+	margin-top: 91px;
+	font-size: 1.8rem;
+	}
+
+	article span{	
+	height: 117px;
+	}
+
+	p{
+	font-size: 1.5rem;
+	/* border: 1px solid green; */
+	}
+
+	.contact_info label{
+		/* display: block; */
+		/* border:1px solid green; */
+		/* font-size: 1.25rem; */
+		/* margin-bottom: 10px; */
+		float: left;
+		width: 45%;
+		margin-left: 7%;
+		
+	}
+	
+	.form_header{
+		display: block;
+	width: 100%;
+	margin:0;
+	/* border:1px solid blue; */
+	text-indent:50px;
+	}
+
+	input[type = "text"],
+	input[type = "email"],
+	input[type = "number"],
+	textarea,
+	select{
+		display: block;
+		/* float: right; */
+		font-size: 1.25rem;
+		/* height: auto; */
+		/* margin: 0; */
+		/* outline: 0; */
+		padding: 10px;
+		padding-top:16px;
+		width: 45%;
+		/* width: 50%; */
+		/* color: #00b3b3; */
+		/* box-shadow: 0 1px 0 rgba(0,0,0,0.03) inset; */
+		margin-bottom: 50px;
+		margin-right:5%;
+		border-radius: 4px;	
+		border:none;
+		
+		/* border: 1px solid red; */
+		/* clear:left; */
+	}
+	
+	
+	
+	
+	
+	.newsletter h2{
+	
+		font-size: 1.5rem;
+		display: block;
+		
+	}
+	
+	.newsletter h3{
+		display: block;
+		
+	}
+	
+	.newsletter label,
+	.newsletter_format label{
+		display: block;
+		
+		clear:both;
+		padding:10px;
+		width: 70%;
+		margin-top: -45px;
+		margin-bottom: 10px;
+		
+	}
+	.newsletter_format input[type = "radio"],
+	.newsletter input[type = "checkbox"]{
+		display: inline-block;
+		
+		margin: 0 10px 15px 0;
+		display: block;
+		
+		
+	}
+	
+	
+	
+	
+	
+	
+	
+
+	.other_topics{
+		display: block;
+		margin:50px;
+		text-indent:-20px;
+	}
+	
+	.other_topics textarea{
+		float: left;
+		width: 60%;
+		height: 150px;
+		margin:0;
+		padding:0;
+		margin-left: -8px;
+	}
+	
+	
+	
+	button{
+		
+		padding: 25px 35px;
+		width: 75%;
+		font-size: 2.5rem;
+		
+	}
+	
+	
+	
+	
+	
+	
+	
+	
+}
